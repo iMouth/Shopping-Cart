@@ -4,7 +4,7 @@ import logo from "./assets/Kill_Crew_Logo.webp";
 import cart from "./assets/cart.png";
 import "./Header.css";
 
-function Header() {
+const Header = () => {
   return (
     <div id="Header">
       <Link to="/">
@@ -22,6 +22,6 @@ function Header() {
       </nav>
     </div>
   );
-}
+};
 
 export default Header;

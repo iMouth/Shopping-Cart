@@ -4,6 +4,7 @@
 
 #Header {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
@@ -62,4 +63,19 @@ nav img:hover {
   text-align: center;
   vertical-align: middle;
   transform: translate(18px, -58px);
+}
+
+@media screen and (max-width: 450px) {
+  #logo {
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  #Header {
+    flex-direction: column;
+  }
+  #logo {
+    height: 50px;
+  }
 }

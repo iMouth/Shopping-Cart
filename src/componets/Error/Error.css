@@ -1,0 +1,7 @@
+#Error {
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
