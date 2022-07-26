@@ -1,0 +1,65 @@
+:root {
+  --header-color: gold;
+}
+
+#Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  caret-color: transparent;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  gap: 20px;
+}
+
+#logo {
+  width: auto;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav > a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+nav > a:hover:not(:last-child) {
+  color: gold;
+  border-bottom: 1px solid var(--header-color);
+}
+
+.cart-box {
+  width: 30px;
+  height: 30px;
+}
+.cart-box > a {
+  text-decoration: none;
+}
+
+nav img {
+  height: 100%;
+  width: 100%;
+  filter: invert(1);
+}
+nav img:hover {
+  filter: invert(85%) sepia(46%) saturate(2829%) hue-rotate(0deg) brightness(103%) contrast(106%);
+}
+
+.cart-amount {
+  background-color: var(--header-color);
+  position: relative;
+  border-radius: 2rem;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  transform: translate(18px, -58px);
+}
