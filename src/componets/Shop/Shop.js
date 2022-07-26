@@ -14,7 +14,7 @@ const Shop = ({ images }) => {
         </div>
         <div className="itemSize">
           <p>Size</p>
-          <select name="" id="">
+          <select name="Size Chart" id="sizes">
             <option value="XS">XS (24-26)</option>
             <option value="S">S (26-30)</option>
             <option value="M">M (30-32)</option>

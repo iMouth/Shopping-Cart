@@ -1,0 +1,20 @@
+#Home {
+  height: 88.5vh;
+  background: center/cover no-repeat url(./assets/Killcrew_Banner_1200x.webp);
+  background-position: 71% 0%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#Home > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(50px, 4vw, 4rem);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 0 2rem;
+  text-align: center;
+  margin: 0;
+}
