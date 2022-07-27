@@ -1,5 +1,8 @@
 import React from "react";
 
-function Cart() {}
+function Cart({ cart }) {
+  console.log("CART");
+  console.log(cart);
+}
 
 export default Cart;

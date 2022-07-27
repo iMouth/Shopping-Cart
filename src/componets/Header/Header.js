@@ -4,7 +4,8 @@ import logo from "./assets/Kill_Crew_Logo.webp";
 import cart from "./assets/cart.png";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ amount }) => {
+  console.log(amount);
   return (
     <div id="Header">
       <Link to="/">
@@ -16,7 +17,11 @@ const Header = () => {
         <div className="cart-box">
           <Link to="/cart">
             <img src={cart} alt="Cart" />
-            <p className="cart-amount">2</p>
+            {amount > 0 ? (
+              <div className="cart-amount">
+                <p>{amount}</p>
+              </div>
+            ) : null}
           </Link>
         </div>
       </nav>

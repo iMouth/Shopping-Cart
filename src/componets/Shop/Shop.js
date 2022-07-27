@@ -1,7 +1,7 @@
 import React from "react";
 import "./Shop.css";
 
-const Shop = ({ images }) => {
+const Shop = ({ images, add }) => {
   const items = Object.keys(images).map((img, index) => {
     return (
       <div className="item" key={index}>
@@ -12,9 +12,9 @@ const Shop = ({ images }) => {
           <h1>{images[img].name}</h1>
           <p>{"$" + images[img].price}</p>
         </div>
-        <div className="itemSize">
+        <form className="itemSize">
           <p>Size</p>
-          <select name="Size Chart" id="sizes">
+          <select data-item-number={index} name="Size Chart">
             <option value="XS">XS (24-26)</option>
             <option value="S">S (26-30)</option>
             <option value="M">M (30-32)</option>
@@ -24,8 +24,17 @@ const Shop = ({ images }) => {
             <option value="3XL">3XL (38-46)</option>
             <option value="4XL">4XL (46-52)</option>
           </select>
-        </div>
-        <button type="button">Add to Cart</button>
+        </form>
+        <button
+          type="button"
+          onClick={() => {
+            const item = document.querySelector("[data-item-number='" + index + "']");
+            const size = item.options[item.selectedIndex].text;
+            add(index, size);
+          }}
+        >
+          Add to Cart
+        </button>
       </div>
     );
   });
