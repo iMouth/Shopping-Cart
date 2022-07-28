@@ -5,7 +5,6 @@ import cart from "./assets/cart.png";
 import "./Header.css";
 
 const Header = ({ amount }) => {
-  console.log(amount);
   return (
     <div id="Header">
       <Link to="/">

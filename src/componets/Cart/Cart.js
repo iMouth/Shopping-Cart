@@ -1,31 +1,67 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import uniqid from "uniqid";
+import { useNavigate } from "react-router-dom";
+import lock from "./assets/lock.png";
 import "./Cart.css";
 
-function Cart({ cart }) {
+function Cart({ cart, inc, dec, total, deleteItem }) {
+  let navigate = useNavigate();
   const itemList = [];
+
   Object.keys(cart).forEach((item) => {
     Object.keys(cart[item].sizes).forEach((size) => {
+      if (cart[item].sizes[size] < 1) return;
+      const i = cart[item];
       itemList.push(
-        <div key={uniqid()}>
+        <div className="cart-item" key={uniqid()}>
+          <span className="itemClose" onClick={() => deleteItem(item, size)}></span>
           <div className="cart-img">
-            <img src={cart[item].src} alt={"Picture of: " + cart[item].name}></img>
+            <img src={i.src} alt={"Picture of: " + i.name}></img>
           </div>
           <div className="cart-info">
-            <h1>{cart[item].name}</h1>
+            <h1>{i.name}</h1>
             <p>{size}</p>
-            <p>{cart[item].price}</p>
-            <div className="cart-amount">
-              <button type="button">-</button>
-              <p>{cart[item].sizes[size]}</p>
-              <button type="button">+</button>
+            <p>{"$" + i.price}</p>
+            <div className="amount">
+              <button type="button" onClick={() => (i.sizes[size] !== 1 ? dec(item, size) : null)}>
+                -
+              </button>
+              <p>{i.sizes[size]}</p>
+              <button type="button" onClick={() => inc(item, size)}>
+                +
+              </button>
             </div>
+            <p>
+              Total: $<span className="total">{(i.price * i.sizes[size]).toFixed(2)}</span>
+            </p>
           </div>
         </div>
       );
     });
   });
-  return <div id="Cart">{itemList}</div>;
+
+  if (itemList.length === 0) {
+    return <p className="noItems">There are no items in your cart.</p>;
+  }
+  return (
+    <div id="Cart">
+      <div>{itemList}</div>
+      <div className="checkout">
+        <p className="back" onClick={() => navigate("/shop")}>
+          &#x2190; Go Back
+        </p>
+        <p className="subtotal">
+          <span>Subtotal:&nbsp;</span>
+          <span>${total.toFixed(2)}</span>
+        </p>
+        <button type="button" className="pay">
+          {" "}
+          <img src={lock} alt="" />
+          Checkout
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default Cart;
