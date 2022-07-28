@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Shopping-Cart/static/css/main.77ad09a1.css",
-    "main.js": "/Shopping-Cart/static/js/main.76a0b530.js",
-    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE : PINK.webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE : PINK.91ddf4d205b5f1a8e633.webp",
-    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - SILVER.webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - SILVER.3385870c6f24e9149bde.webp",
-    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - PURPLE : BLACK.webp": "/Shopping-Cart/static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - PURPLE : BLACK.8804623d2e50b31eec63.webp",
-    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE.webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE.72174c65e3d4c1866b02.webp",
-    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - SAND.webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - SAND.a2dece2b9effb13cfb54.webp",
-    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - BLACK : NEON ORANGE.webp": "/Shopping-Cart/static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - BLACK : NEON ORANGE.ba65a2c929c6d0db3f95.webp",
-    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - NEON ORANGE : BLACK.webp": "/Shopping-Cart/static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - NEON ORANGE : BLACK.5ab2d2fbe085d2e5adff.webp",
-    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - RED.webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - RED.a758d0b4fc168fa6413a.webp",
-    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - BLACK : PINK.webp": "/Shopping-Cart/static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - BLACK : PINK.43b3b164e48efcd531b7.webp",
-    "static/media/Killcrew_Banner_1200x.webp": "/Shopping-Cart/static/media/Killcrew_Banner_1200x.f6a138f576cb15d15a13.webp",
-    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLACK.webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLACK.b2229a4df2a764a2eb45.webp",
-    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLACK : ORANGE .webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLACK : ORANGE .b7cfafa935eeac39040b.webp",
-    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - WHITE : BLACK.webp": "/Shopping-Cart/static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - WHITE : BLACK.50b7748a326abab2c4b3.webp",
-    "static/media/cart.png": "/Shopping-Cart/static/media/cart.667866d64aa71af1c4a6.png",
-    "static/media/Kill_Crew_Logo.webp": "/Shopping-Cart/static/media/Kill_Crew_Logo.c754688f4e2c43558365.webp",
-    "index.html": "/Shopping-Cart/index.html",
-    "main.77ad09a1.css.map": "/Shopping-Cart/static/css/main.77ad09a1.css.map",
-    "main.76a0b530.js.map": "/Shopping-Cart/static/js/main.76a0b530.js.map"
+    "main.css": "./static/css/main.0b6b4072.css",
+    "main.js": "./static/js/main.098e1511.js",
+    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE : PINK.webp": "./static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE : PINK.91ddf4d205b5f1a8e633.webp",
+    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - SILVER.webp": "./static/media/MUAY THAI SHORTS (MID THIGH CUT) - SILVER.3385870c6f24e9149bde.webp",
+    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - PURPLE : BLACK.webp": "./static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - PURPLE : BLACK.8804623d2e50b31eec63.webp",
+    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE.webp": "./static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE.72174c65e3d4c1866b02.webp",
+    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - SAND.webp": "./static/media/MUAY THAI SHORTS (MID THIGH CUT) - SAND.a2dece2b9effb13cfb54.webp",
+    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - BLACK : NEON ORANGE.webp": "./static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - BLACK : NEON ORANGE.ba65a2c929c6d0db3f95.webp",
+    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - NEON ORANGE : BLACK.webp": "./static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - NEON ORANGE : BLACK.5ab2d2fbe085d2e5adff.webp",
+    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - RED.webp": "./static/media/MUAY THAI SHORTS (MID THIGH CUT) - RED.a758d0b4fc168fa6413a.webp",
+    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - BLACK : PINK.webp": "./static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - BLACK : PINK.43b3b164e48efcd531b7.webp",
+    "static/media/Killcrew_Banner_1200x.webp": "./static/media/Killcrew_Banner_1200x.f6a138f576cb15d15a13.webp",
+    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLACK.webp": "./static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLACK.b2229a4df2a764a2eb45.webp",
+    "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLACK : ORANGE .webp": "./static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLACK : ORANGE .b7cfafa935eeac39040b.webp",
+    "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - WHITE : BLACK.webp": "./static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - WHITE : BLACK.50b7748a326abab2c4b3.webp",
+    "static/media/cart.png": "./static/media/cart.667866d64aa71af1c4a6.png",
+    "static/media/Kill_Crew_Logo.webp": "./static/media/Kill_Crew_Logo.c754688f4e2c43558365.webp",
+    "index.html": "./index.html",
+    "main.0b6b4072.css.map": "./static/css/main.0b6b4072.css.map",
+    "main.098e1511.js.map": "./static/js/main.098e1511.js.map"
   },
   "entrypoints": [
-    "static/css/main.77ad09a1.css",
-    "static/js/main.76a0b530.js"
+    "static/css/main.0b6b4072.css",
+    "static/js/main.098e1511.js"
   ]
 }
