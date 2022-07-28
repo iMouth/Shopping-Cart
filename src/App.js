@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 import Home from "./componets/Home/Home";
 import Cart from "./componets/Cart/Cart";
 import Shop from "./componets/Shop/Shop";
