@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Shopping-Cart/static/css/main.77ad09a1.css",
-    "main.js": "/Shopping-Cart/static/js/main.76a0b530.js",
+    "main.js": "/Shopping-Cart/static/js/main.c8d92bcc.js",
     "static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE : PINK.webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - BLUE : PINK.91ddf4d205b5f1a8e633.webp",
     "static/media/MUAY THAI SHORTS (MID THIGH CUT) - SILVER.webp": "/Shopping-Cart/static/media/MUAY THAI SHORTS (MID THIGH CUT) - SILVER.3385870c6f24e9149bde.webp",
     "static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - PURPLE : BLACK.webp": "/Shopping-Cart/static/media/MUAY THAI FLAME SHORTS (MID THIGH CUT) - PURPLE : BLACK.8804623d2e50b31eec63.webp",
@@ -19,10 +19,10 @@
     "static/media/Kill_Crew_Logo.webp": "/Shopping-Cart/static/media/Kill_Crew_Logo.c754688f4e2c43558365.webp",
     "index.html": "/Shopping-Cart/index.html",
     "main.77ad09a1.css.map": "/Shopping-Cart/static/css/main.77ad09a1.css.map",
-    "main.76a0b530.js.map": "/Shopping-Cart/static/js/main.76a0b530.js.map"
+    "main.c8d92bcc.js.map": "/Shopping-Cart/static/js/main.c8d92bcc.js.map"
   },
   "entrypoints": [
     "static/css/main.77ad09a1.css",
-    "static/js/main.76a0b530.js"
+    "static/js/main.c8d92bcc.js"
   ]
 }
