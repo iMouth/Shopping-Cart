@@ -14,6 +14,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/App.tsx", "src/index.tsx", "src/componets/Shop/Shop.js", "src/componets/Header/Header.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/App.tsx", "src/index.tsx", "src/componets/Shop/Shop.tsx", "src/componets/Header/Header.tsx"],
   "exclude": ["node_modules"]
 }

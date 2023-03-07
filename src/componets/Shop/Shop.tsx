@@ -2,13 +2,14 @@ import React from "react";
 import "./Shop.css";
 import { ImageIF } from "../../types";
 
-// interface Props {
-//   images: { [key: string]: ImageIF};
-//   add: (index: number, size: string) => void;
-// }
+interface Props {
+  images: ImageIF[];
+  add: (index: number, size: string) => void;
+}
 
-const Shop = ({ images, add }) => {
-  const items = Object.keys(images).map((img, index) => {
+const Shop = ({ images, add }: Props) => {
+  console.log(images);
+  const items = Object.keys(images).map((img: any, index: number) => {
     return (
       <div className="item" key={index}>
         <div className="itemImg">
@@ -34,7 +35,7 @@ const Shop = ({ images, add }) => {
         <button
           type="button"
           onClick={() => {
-            const item = document.querySelector("[data-item-number='" + index + "']");
+            const item = document.querySelector("[data-item-number='" + index + "']") as HTMLSelectElement; 
             const size = item.options[item.selectedIndex].text;
             add(index, size);
           }}
