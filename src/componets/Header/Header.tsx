@@ -4,7 +4,7 @@ import logo from "./assets/Kill_Crew_Logo.webp";
 import cart from "./assets/cart.png";
 import "./Header.css";
 
-const Header = ({ amount }) => {
+const Header = ({ amount }: {amount: number}) => {
   return (
     <div id="Header">
       <Link to="/">

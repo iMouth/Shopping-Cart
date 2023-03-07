@@ -1,5 +1,11 @@
 import React from "react";
 import "./Shop.css";
+import { ImageIF } from "../../types";
+
+// interface Props {
+//   images: { [key: string]: ImageIF};
+//   add: (index: number, size: string) => void;
+// }
 
 const Shop = ({ images, add }) => {
   const items = Object.keys(images).map((img, index) => {

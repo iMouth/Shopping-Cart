@@ -3,15 +3,23 @@ import uniqid from "uniqid";
 import { useNavigate } from "react-router-dom";
 import lock from "./assets/lock.png";
 import "./Cart.css";
+import { CartIF } from "../../types";
 
-function Cart({ cart, inc, dec, total, deleteItem }) {
+interface Props {
+  cart: CartIF[];
+  inc: (item: number, size: string) => void;
+  dec: (item: number, size: string) => void;
+  total: number;
+  deleteItem: (item: number, size: string) => void;
+}
+
+const Cart = ({ cart, inc, dec, total, deleteItem }: Props) => {
   let navigate = useNavigate();
-  const itemList = [];
-
-  Object.keys(cart).forEach((item) => {
+  const itemList: any = [];
+  Object.keys(cart).forEach((item: any) => {
     Object.keys(cart[item].sizes).forEach((size) => {
       if (cart[item].sizes[size] < 1) return;
-      const i = cart[item];
+      const i: CartIF = cart[item];
       itemList.push(
         <div className="cart-item" key={uniqid()}>
           <span className="itemClose" onClick={() => deleteItem(item, size)}></span>
@@ -32,7 +40,7 @@ function Cart({ cart, inc, dec, total, deleteItem }) {
               </button>
             </div>
             <p>
-              Total: $<span className="total">{(i.price * i.sizes[size]).toFixed(2)}</span>
+              Total: $<span className="total">{(parseInt(i.price) * i.sizes[size]).toFixed(2)}</span>
             </p>
           </div>
         </div>
@@ -43,6 +51,7 @@ function Cart({ cart, inc, dec, total, deleteItem }) {
   if (itemList.length === 0) {
     return <p className="noItems">There are no items in your cart.</p>;
   }
+
   return (
     <div id="Cart">
       <div>{itemList}</div>
@@ -62,6 +71,6 @@ function Cart({ cart, inc, dec, total, deleteItem }) {
       </div>
     </div>
   );
-}
+};
 
 export default Cart;
